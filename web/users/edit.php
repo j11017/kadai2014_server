@@ -5,12 +5,11 @@
 		<title>
 			J11017
 		</title>
+		<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+		<script src="check.js"></script>
 		<link rel="stylesheet" type="text/css" href="../menu.css">
 	</head>
 	<body bgcolor="#880000" text = "#FFFF00">
-		<p>
-			静岡産業技術専門学校　みらい情報科　土井一闘
-		</p>
 		
 		<?php
             
