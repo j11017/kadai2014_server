@@ -6,18 +6,15 @@
 
 <?php
 	require './login/check.php';
-	//MySQL.phpの取り込み
 	require 'MySQL.php';
 	
-	//インスタンス生成
 	$my = new MySQL();
 ?>
 
 </head>
-<!-- 1.色をつけてみよう-->
 <body>
 <h1>ゲーム一覧</h1>
-<?php  //PHPの始まり
+<?php
 	
 	readData($my);
 
@@ -29,7 +26,6 @@ function readData($my){
 
 	$result = $my->selectAll('games');
 	if($result){
-		//1行ずつ取り出し
 		$columnCount = 0;
 		while($row = $result->fetch_object()){
 			$mode = getModeName(htmlspecialchars($row->mode));
@@ -67,7 +63,6 @@ function getModeName($mode) {
 	return "不明";
 }
 
-//PHPの終了  
 ?>
 
 </body>

@@ -3,14 +3,11 @@
     <head>
     <meta charset="UTF-8">
         <title>
-            J11017
+            ユーザー削除|リバーシ
         </title>
         <link rel="stylesheet" type="text/css" href="../menu.css">
     </head>
     <body>
-        <p>
-            静岡産業技術専門学校　みらい情報科　土井一闘
-        </p>
         <?php
             
             require 'MySQL.php';

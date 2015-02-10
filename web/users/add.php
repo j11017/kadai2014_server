@@ -13,7 +13,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>新規登録</title>
+    <title>新規ユーザー登録|リバーシ</title>
     <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
     <script src="check.js"></script>
     <link rel="stylesheet" type="text/css" href="../menu.css">

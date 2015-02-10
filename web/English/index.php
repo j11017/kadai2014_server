@@ -1,23 +1,20 @@
 <html>
-<head><title>Reversi | Game List</title>
+<head><title>Game List | Reversi</title>
 <meta charset="UTF-8">
 <?php include 'menu.php' ?>
 <link rel="stylesheet" type="text/css" href="../menu.css">
 
 <?php
 	require './login/check.php';
-	//MySQL.phpの取り込み
 	require '../MySQL.php';
 	
-	//インスタンス生成
 	$my = new MySQL();
 ?>
 
 </head>
-<!-- 1.色をつけてみよう-->
 <body>
 <h1>Game List</h1>
-<?php  //PHPの始まり
+<?php
 	
 	readData($my);
 
@@ -29,7 +26,6 @@ function readData($my){
 
 	$result = $my->selectAll('games');
 	if($result){
-		//1行ずつ取り出し
 		$columnCount = 0;
 		while($row = $result->fetch_object()){
 			$mode = getModeName(htmlspecialchars($row->mode));
@@ -67,7 +63,6 @@ function getModeName($mode) {
 	return "Unknown";
 }
 
-//PHPの終了  
 ?>
 
 </body>

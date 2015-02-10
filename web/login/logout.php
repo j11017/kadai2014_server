@@ -9,7 +9,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>
-            ログアウト
+            ログアウト|リバーシ
         </title>
         <link rel="stylesheet" type="text/css" href="../menu.css">
     </head>

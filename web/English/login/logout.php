@@ -9,7 +9,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>
-            Log Out
+            Log Out | Reversi
         </title>
         <link rel="stylesheet" type="text/css" href="../../menu.css">
     </head>

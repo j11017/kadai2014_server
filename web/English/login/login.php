@@ -11,7 +11,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>
-            Log In
+            Log In | Reversi
         </title>
         <link rel="stylesheet" type="text/css" href="../../menu.css">
     </head>

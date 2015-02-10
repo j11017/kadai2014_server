@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
         <title>
-            J11017
+            新規ユーザー登録|リバーシ
         </title>
         <link rel="stylesheet" type="text/css" href="../menu.css">
     </head>

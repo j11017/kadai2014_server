@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
         <title>
-            J11017
+            User Registration | Reversi
         </title>
         <link rel="stylesheet" type="text/css" href="../menu.css">
     </head>

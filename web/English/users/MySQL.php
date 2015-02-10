@@ -2,7 +2,6 @@
     
     class MySQL {
         
-        // Property
         private $host;
         private $user;
         private $pass;

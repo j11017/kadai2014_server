@@ -1,5 +1,5 @@
 <html>
-<head><title>Reversi | Turn List</title>
+<head><title>Turn List | Reversi</title>
 <meta charset="UTF-8">
 <?php include 'menu.php' ?>
 <link rel="stylesheet" type="text/css" href="../menu.css">
@@ -7,14 +7,11 @@
 
 <?php
 	require './login/check.php';
-	//MySQL.phpの取り込み
 	require '../MySQL.php';
-	
-	//インスタンス生成
+
 	$my = new MySQL();
 	$id = $_GET["id"];
 	
-	// グローバル変数
 	$evaluationValueList[] = array(); 
 	$evaluationValueListToJs;
 	$loopCount = 0;
@@ -23,10 +20,9 @@
 ?>
 
 </head>
-<!-- 1.色をつけてみよう-->
 <body onLoad="drawBoard(0)">
 <h1>Turn List</h1>
-<?php  //PHPの始まり
+<?php
 	
 	readData($my, $id);
 
@@ -390,7 +386,6 @@ function onRightButtonClick() {
       
 	</script>");
 
-//PHPの終了  
 ?>
 
 

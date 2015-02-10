@@ -13,7 +13,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>User Registration</title>
+    <title>User Registration | Reversi</title>
     <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
     <script src="check.js"></script>
     <link rel="stylesheet" type="text/css" href="../../menu.css">

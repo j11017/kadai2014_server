@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>
-			J11017
+			ユーザー編集|リバーシ
 		</title>
 		<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 		<script src="check.js"></script>
