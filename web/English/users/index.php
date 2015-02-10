@@ -9,6 +9,7 @@
 	</head>
 	<body>
 		<a href="./add.php">New User</a>
+		<a href="../index.php">Go Home</a>
 		<?php
 		    
 		    require 'MySQL.php';

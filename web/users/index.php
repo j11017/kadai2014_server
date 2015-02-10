@@ -9,6 +9,7 @@
 	</head>
 	<body>
 		<a href="./add.php">新規</a>
+		<a href="../index.php">ホームへ戻る</a>
 		<?php
 		    
 		    require 'MySQL.php';

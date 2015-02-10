@@ -18,7 +18,7 @@
             $this->mysqli = new mysqli($this->host, $this->user, $this->pass, $this->dbname);
             $this->mysqli->set_charset("utf8");
             if ($this->mysqli->connect_error) {
-                print("接続失敗 : " .$this->mysqli->connect_error);
+                print("Connection Error : " .$this->mysqli->connect_error);
                 exit();
             }
         }

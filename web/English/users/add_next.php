@@ -21,8 +21,8 @@
      $rows = $my->nameCheck($name);
      
      if ($rows != 0) {
-         print("nameが重複しています<br /><br />");
-         print("<a href='./add.php'>戻る</a>");
+         print("This name already eists on this system.<br /><br />");
+         print("<a href='./add.php'>return</a>");
      } else {
          $my->add($name, $pass);
          header("Location: ./index.php");
